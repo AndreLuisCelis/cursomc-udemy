@@ -27,5 +27,12 @@ public class CategoriaResource {
 		
 		
 	}
-
+//	@RequestMapping(method = RequestMethod.GET)
+//	public ResponseEntity<?> listar(){
+//		
+//		List<?> lista = service.listaCategorias();
+//		return ResponseEntity.ok().body(lista);
+//		
+//}
+	
 }

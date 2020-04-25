@@ -1,5 +1,6 @@
 package com.celisapp.cursomc.services;
 
+import java.util.ArrayList;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,5 +20,11 @@ public class CategoriaService {
 		Optional <Categoria> obj = repo.findById(id);
 		return obj.orElse(null);
 	}
+	
+//	public ArrayList<?> listaCategorias(){
+//		
+//		ArrayList <?> lista = (ArrayList<?>) repo.findAll();
+//		return lista;
+//	}
 
 }
